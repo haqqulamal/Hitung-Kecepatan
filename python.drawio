@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2024-05-10T06:15:52.489Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Al37QTrIqtOomhyjpIgW" version="24.3.1" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1444" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="go2JA-3ObFCgA5_KcoTb-0" target="go2JA-3ObFCgA5_KcoTb-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-0" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="go2JA-3ObFCgA5_KcoTb-1" target="go2JA-3ObFCgA5_KcoTb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-1" value="Input jumlah&lt;div&gt;inputan (n)&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="go2JA-3ObFCgA5_KcoTb-3" target="go2JA-3ObFCgA5_KcoTb-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-3" value="Buat list kosong&amp;nbsp;&lt;div&gt;untuk hasil&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="go2JA-3ObFCgA5_KcoTb-5" target="go2JA-3ObFCgA5_KcoTb-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-5" value="Untuk i = 1 to n" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="go2JA-3ObFCgA5_KcoTb-7" target="go2JA-3ObFCgA5_KcoTb-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-7" value="Minta input kecepatan awal, percepatan dan waktu" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="295" y="670" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="go2JA-3ObFCgA5_KcoTb-9" target="go2JA-3ObFCgA5_KcoTb-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-9" value="Hitung kecepatan akhir" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="go2JA-3ObFCgA5_KcoTb-11" target="go2JA-3ObFCgA5_KcoTb-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-11" value="Hitung jarak" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="go2JA-3ObFCgA5_KcoTb-13" target="go2JA-3ObFCgA5_KcoTb-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-13" value="SImpan hasil dalam list" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="go2JA-3ObFCgA5_KcoTb-15" target="go2JA-3ObFCgA5_KcoTb-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-15" value="Cetak tabel&lt;div&gt;dalam list&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="go2JA-3ObFCgA5_KcoTb-17" target="go2JA-3ObFCgA5_KcoTb-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-17" value="Untuk setiap elemen&lt;div&gt;dalam list&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="go2JA-3ObFCgA5_KcoTb-19" target="go2JA-3ObFCgA5_KcoTb-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-19" value="Cetak nilai (n), kecepatan awal, percepatan, waktu, kecepatan akhir&lt;div&gt;dan jarak&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="275" y="1230" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="go2JA-3ObFCgA5_KcoTb-22" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="1230" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
